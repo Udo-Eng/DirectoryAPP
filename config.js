@@ -2,7 +2,14 @@ const mongoose = require('mongoose');
 
 
 function connectToDataBase(){
-    const dbUrl = process.env.dbUri;
+
+    let dbUrl;
+    dbUrl =  process.env.mongoAltas;
+    // if(process.env.NODE_ENV === "production"){
+    //    dbUrl =  process.env.mongoAltas;
+    // }else{
+    //     dbUrl = process.env.dbUri;
+    // }
     mongoose.connect(dbUrl).then(()=>{
         console.log(`Connected to ${dbUrl} sucessfully ....`);
     }).catch((err)=>{
