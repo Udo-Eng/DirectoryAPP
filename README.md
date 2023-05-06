@@ -34,10 +34,6 @@ npm install
 
 Once the dependencies are installed, you can now configure your project by creating a new `.env` file containing your environment variables used for development.
 
-```
-cp .env.example .env
-vi .env
-```
 
 ### 1.4 Running the app
 
