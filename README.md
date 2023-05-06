@@ -6,8 +6,7 @@ a simple CRUD application
 
 ### 1.1 View Application and Documentation
 
-- Application live url - 
-- Documentation - 
+- Application live url - https://companydirectory-service.onrender.com.
 
 ### 1.2 Application Requirements
 
@@ -21,14 +20,15 @@ Before starting, make sure you have at least those components on your workstatio
 Start by cloning this project on your workstation.
 
 ```sh
-git clone  
+mkdir directory
+cd directory
+git clone  https://github.com/Udo-Eng/DirectoryAPP.git  .
 ```
 
 The next thing will be to install all the dependencies of the project.
 
 ```sh
-mkdir directory
-cd directory
+
 npm install 
 ```
 
@@ -49,16 +49,7 @@ $ npm run dev
 
 ```
 
-## 2. Project structure
-
-This template was made with a well-defined directory structure.
-
-```sh
-   
-```
-
-
-## 3. Technologies/Tools
+## 2. Technologies/Tools
 
 - NodeJs
 - express
